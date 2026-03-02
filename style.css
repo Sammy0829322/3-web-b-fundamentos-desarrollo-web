@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #0f5f9c;
+color: rgb(14, 1, 1);
+}
+.titulo{
+    font-family: "Pacifico",cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+
+}
+.clase1 {
+    text-align: center;
+ font-size: 2rem;
+}
+.clase2{
+    text-align: center;
+    font-size: 2rem;
+}

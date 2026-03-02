@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #2a2a2a;
+color: white;
+}
+.titulo{
+    font-family: "Pacifico",cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+
+}
+p{
+    background-color: #373737;
+    text-align: center;
+}
+.btn-box{
+    text-align: center;
+}
+button{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+#portada{
+    text-align: center;
+    margin-top: 20px;
+
+}
+#portada img{
+    border: 25px solid orange;
+    padding: 8px;
+    background-color: aliceblue;
+    width: 200px;
+
+    
+
+}
+
+.user-card{
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+     margin: 40px auto;
+    border-radius: 10px;
+    padding: 30px;
+    display: block;
+
+}
+.user-card-info img{
+    border-radius: 50%;
+   
+}
+.btn-link{
+ border-radius: 50%;
+    display: block;
+    background: greenyellow;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
