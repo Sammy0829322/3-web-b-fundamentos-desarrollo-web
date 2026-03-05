@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(31, 2, 31);
+    color: aliceblue;
+    font-family: "Bungee",sans-serif;
+    text-align: center;
+    
+}
+#miparrafo{
+   color: blueviolet; 
+    font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+.p{
+color: orange;
+ font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+p{
+    color: chartreuse !important;
+ font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+span{
+       color: rgb(255, 213, 0);
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 100;
+
+}
+/* ejemplo posicion */
+.parent{
+    background-color: rgb(168, 98, 12);
+    width: 400px;
+    height: 300px;
+    border: 5px solid white;
+border-radius: 15px;
+position: relative;
+margin-bottom: 100px;
+}
+.parent h1{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+}
+.parent img{
+    position:absolute;
+}
+.orange{
+    right: 0;
+    top: 7%;
+    z-index: 1;
+
+}
+
+.leaf{
+    bottom: 18%;
+    left: -3%;
+    z-index: 3;
+
+
+}
+/* reto de la semana */
+.fondo1{
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 500px;
+    border: 10px solid white;
+border-radius: 15px;
+position: relative;
+z-index: 1;
+}
+
+.fondo2{
+    background-color: rgb(215, 113, 113);
+    border-radius: 15px;
+    width: 390px;
+    height: 280px;
+    position: absolute;
+    left: -10px;
+    top: -30px;
+    z-index: 2;
+}
+.fondo1 img{
+    position:absolute;
+}
+.Kratos{
+      right: 0;
+    top: 0;
+    left: 40px;
+    z-index: 3;
+
+}
+.fondo1 h2{
+     position: absolute;
+    font-size: 130%;
+    left: 30px;
+    bottom: 50px;
+    z-index: 4;
+     font-family: "Archivo Black", sans-serif;
+     color: black;
+} 
+h2{
+      font-family: "Archivo Black", sans-serif;
+      color: black;
+
+}
+
+.fondo1 p{
+    position: absolute;
+    font-size: 100%;
+    z-index: 4;
+    bottom: 30px;
+    left: 80px;
+
+
+}
+
+ #fecha{
+    color: rgb(166, 165, 165) !important;
+     font-family: "Fredoka", sans-serif;
+     font-weight: 400;
+}
+
+.fondo1 h3{
+    position: absolute;
+    font-size: 100%;
+    z-index: 4;
+    bottom: 5px;
+    left: 30px;
+}
+#precio-antes{
+    color: red;
+      font-family: "SN Pro", sans-serif;
+}
+
+.fondo1 #precio-despues{
+    color:black;
+    font-family: "SN Pro", sans-serif;
+    position: absolute;
+    font-size: 140%;
+    z-index: 4;
+    bottom: -25px;
+    left: 30px;
+}
+
+.fondo1 .fa-heart{
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 480px;
+    left: 320px;
+    z-index: 4;
+}
+
+
+.fondo1 .fa-cart-shopping{
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 320px;
+    z-index: 4;
+}
+
+
+
