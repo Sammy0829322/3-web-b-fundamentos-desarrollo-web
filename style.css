@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-background-color: #0f5f9c;
+background-color: #e36c18;
 color: rgb(14, 1, 1);
 }
 .titulo{
@@ -25,6 +25,11 @@ color: rgb(14, 1, 1);
 }
 
 .clase3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.clase4{
     text-align: center;
     font-size: 2rem;
 }
