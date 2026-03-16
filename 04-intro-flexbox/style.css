@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: antiquewhite;
+  background-color: #fcf7f0;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -31,10 +32,13 @@
 /* Estilos header */
 
 header {
-  background-color: rgb(105, 173, 150);
   display: flex;
-  padding: 20px;
-  justify-content: space-between;
+ 
+  justify-content:space-around;
+ max-width: 1200px;
+  margin: auto;
+  gap: 670px;
+
 }
 
 main {
@@ -46,26 +50,30 @@ main {
 .main-content {
   width: 60%;
   height: 600px;
-  background-color:beige;
+  background-color:white;
   border: 2px solid black;
   border-radius: 10px;
  
 }
 .statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   width: 20%;
   height: 600px;
-  background-color:beige;
+  background-color:white;
   border: 2px solid black;
   border-radius: 10px;
-
+padding: 10px;
 }
 .primera-parte {
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 15%;
-  background-color: red;
-   border: 2px solid beige;
+  background-color: white;
+   border: 2px solid white;
   border-radius: 10px;
 }
 .segunda-parte {
@@ -74,16 +82,21 @@ main {
   align-items: center;
   width: 100%;
   height: 70%;
-  background-color:beige;
-  border: 2px solid black;
+  background-color:white;
+ border-top: 2px solid black;
+ border-bottom: 2px solid black;
  
 }
 .tercera-parte {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 15%;
-  background-color: beige;
-   border: 2px solid beige;
+  background-color: white;
+   border: 2px solid white;
   border-radius: 10px;
+  padding: 0 20px;
 }
 .content1 {
   display: flex;
@@ -92,7 +105,8 @@ main {
   gap: 10px;
   width: 50%;
   height: 100%;
-  background-color:beige;
+  background-color:white;
+  border-radius: 3px;
 }
 .content2 {
   display: flex;
@@ -101,12 +115,13 @@ main {
   gap: 20px;
   width: 70%;
   height: 100%;
-  background-color: beige;
+  background-color: white;
+  border-radius: 3px;
   padding-right: 20px;
 }
 
 .Shuffle {
-  background-color: beige;
+  background-color: white;
   color: black;
   padding: 10px 20px;
   border: 1px solid black;
@@ -115,7 +130,7 @@ main {
 }
 
 #all-categories {
-  background-color: beige;
+  background-color: white;
   color: black;
   padding: 10px 20px;
   border: 1px solid black;
@@ -126,6 +141,7 @@ main {
 
 .checkbox-container {
   padding-right: 10px;
+  background-color: transparent;
 }
 
 .pizarra {
@@ -138,6 +154,8 @@ main {
   border: 2px solid black;
   border-radius: 10px;
   margin-top: 15px;
+  position: relative;
+  
 }
 
 .controles {
@@ -147,7 +165,7 @@ main {
   gap: 20px;
   width: 50%;
   height: 15%;
-  background-color: beige;
+  background-color: white;
  
   border-radius: 10px;
 }
@@ -157,7 +175,7 @@ main {
   justify-content: center;
   width: 100%;
   height: 25%;
-  background-color:palevioletred;
+  background-color:rgba(234, 67, 234, 0.784);;
   
   border-radius: 10px;
 }
@@ -168,24 +186,24 @@ main {
   justify-content: center;
   width: 100%;
   height: 50%;
-  background-color: palevioletred;
+  background-color: rgba(234, 67, 234, 0.784);;
 }
 .card3{
   width: 100%;
   height: 25%;
-  background-color: palevioletred;
+  background-color:rgba(234, 67, 234, 0.784);;
   border-radius: 10px;
 }
 .card2 .question {
   font-size: 40px;
   font-weight: bold;
-  background-color: palevioletred;
+  background-color:transparent;
   margin: 0;
   padding: 10px;
 }
 .card2 .hint {
   font-size: 20px;
-  background-color: palevioletred;
+  background-color: transparent;
   margin: 0;
   padding: 10px;
 }
@@ -193,7 +211,7 @@ main {
   color: rgb(116, 109, 109);
 }
 .web {
-   background-color: beige;
+   background-color:#fcf7f0;
   color: black;
   padding: 5px 5px;
   border: 2px solid black;
@@ -210,16 +228,235 @@ background-color: orange;
   border-radius: 25px;
   cursor: pointer;
   font-size: 14px;
+      box-shadow: 0 3px 1px rgba(0, 0, 0, 1);
 }
 .reset{
-background-color: beige;
+background-color: white;
   color: black;
   padding: 10px 10px;
   border: 2px solid black;
   border-radius: 25px;
   cursor: pointer;
   font-size: 14px;
+      box-shadow: 0 3px 1px rgba(0, 0, 0, 1);
+}
+.btn-prev{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn-next{
+ background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.stat-item{
+  display: flex;
+  width: 90%;
+  height: 25%;
+  background-color: beige;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.stat-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  gap: 10px;
+   border-radius: 7px 0 0 7px;
+ 
+}
+.stat-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(67, 167, 234, 0.784);
+  border-radius: 0 7px 7px 0;
+ 
 }
 
+img{
+  background-color: transparent;
+}
+.stat-content p{
+  font-size: 15px;
+ 
+}
+.stat-content h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.stat-icon2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(24, 229, 99, 0.784);
+   border-radius: 0 7px 7px 0;
+}
+.stat-icon3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(215, 86, 131, 0.784);
+   border-radius: 0 7px 7px 0;
+}
+.stat-icon4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(234, 67, 234, 0.784);
+   border-radius: 0 7px 7px 0;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 263px;
+  height: 50px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 2px solid black;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 130px;
+  left: 0;
+  top: 5px;
+  background-color: rgb(231, 202, 12);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 30px;
+  z-index: 1;
+  border: 2px solid black;
+  
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(130px);
+  -ms-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 290px;
+  height: 59px;
+  border-radius: 25px;
+  gap: 15px;
+   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
+}
+.texto1{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 0, 0);
+  z-index: 10;
+  position: relative;
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo span{
+  margin-right: 10px;
+}
+.botones h1{
+  background-color: transparent;
+}
+
+.checkbox-container label{
+  background-color: transparent;
+}
+.statistics h3{
+  background-color: transparent;
+}
+.stat-content p{
+  background-color: transparent;
+}
+.tercera-parte p{
+  background-color: transparent;
+}
+div{
+  background-color: transparent;
+}
+.statistics .menu-card{
+margin-right: 30px;
+}
+.estrella1{
+  position: absolute;
+   right: 7%;
+    top: 7%;
+    z-index: 1;
+}
+.estrella2{
+  position: absolute;
+   left: 7%;
+    bottom: 7%;
+    z-index: 1;
+    transform: rotate(180deg);
+}
 
 

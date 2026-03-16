@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro a Flexbox</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,10 +25,16 @@
   <h1>Ejercicio práctico flexbox</h1>
 
   <header>
-    <div class="logo">FlashCard</div>
+    <div class="logo"><span><img src="./assets/circulo.png" alt="" width="40px"></span>FlashCard</div>
     <div class="botones">
-      <button>Study mode</button>
-      <button>All cards</button>
+      <!-- Rounded switch -->
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round">
+          <h1 class="texto1">Study Mode</h1>
+          <h1 class="texto1">All Cards</h1>
+        </span>
+      </label>
     </div>
   </header>
 
@@ -53,9 +62,9 @@
           <button class="Shuffle">Shuffle</button>
         </div>
       </div>
-      <div class="segunda-parte"> 
+      <div class="segunda-parte">
         <div class="pizarra">
-          <div class="card1"> 
+          <div class="card1">
             <button class="web">web Development</button>
           </div>
           <div class="card2">
@@ -63,15 +72,60 @@
             <p class="hint">click to reveal answer</p>
           </div>
           <div class="card3"></div>
+          <div class="estrella1"> <img src="./assets/Estrella1.png" alt="" width="40px"></div>
+          <div class="estrella2"> <img src="./assets/Estrella2.png" alt="" width="40px"></div>
         </div>
         <div class="controles">
           <button class="i-know">I Know This</button>
           <button class="reset">Reset Progress</button>
         </div>
       </div>
-      <div class="tercera-parte"></div>
+      <div class="tercera-parte">
+        <button class="btn-prev">
+          < Previous</button>
+            <p>Card 1 of 40</p>
+            <button class="btn-next">Next ></button>
+      </div>
     </div>
-    <div class="statistics"></div>
+    <div class="statistics">
+      <h3 class="menu-card"> Study Statistics</h3>
+      <div class="stat-item">
+        <div class="stat-content">
+          <p>Total Cards</p>
+          <h3>40</h3>
+        </div>
+        <div class="stat-icon">
+          <img src="./assets/apilar.png" alt="" width="40px">
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-content">
+          <p>Mastered</p>
+          <h3>11</h3>
+        </div>
+        <div class="stat-icon2">
+           <img src="./assets/cerebro.png" alt="" width="40px">
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-content">
+          <p>In Progress</p>
+          <h3>21</h3>
+        </div>
+        <div class="stat-icon3">
+          <img src="./assets/libro.png" alt="" width="40px">
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-content">
+          <p>Not Started</p>
+          <h3>8</h3>
+        </div>
+        <div class="stat-icon4">
+          <img src="./assets/caja.png" alt="" width="40px">
+        </div>
+      </div>
+    </div>
   </main>
 
 </body>
