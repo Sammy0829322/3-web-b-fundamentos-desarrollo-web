@@ -1,24 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alineacion Flexbox</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alineación Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="box-start">
-            <span id="logo">🥤</span>
+            <span id="logo"><img src="./assets/icono.png" alt="Logo Starbucks" width="40px"></span>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Menu</a>
+                        <a href="#">MENÚ</a>
                     </li>
                     <li>
-                        <a href="#">Rewards</a>
+                        <a href="#">REWARDS</a>
                     </li>
                 </ul>
             </nav>
@@ -26,20 +30,86 @@
         <div class="box-end">
             <a href="#"><span>📍</span> Localiza tu tienda</a>
             <div class="auth-buttons">
-            <a href="#" class="btn-inicio"> inicia sesión</a>
-            <a href="#" class="btn-inicio"> unete ahora</a> 
+                <a href="#" class="btn-inicio">Inicia sesión</a>
+                <a href="#" class="btn-unete">Únete ahora</a>
             </div>
-
         </div>
     </header>
-    <!-- Practica propiedades hijo 
-    <div class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-    </div>
-    -->
+    <main>
+        <div class="main-start">
+            <h1>
+                STARBUCKS <br />
+                REWARDS
+            </h1>
+            <p>Holaaaa, café gratis</p>
+            <div class="auth-buttons-main">
+                <a href="#" class="btn-inicio">Inicia sesión</a>
+                <a href="#" class="btn-unete">Únete ahora</a>
+            </div>
+            <img class="bg-section" src="./assets/bg-section.png" alt="" width="250px" />
+        </div>
+        <div class="main-end">
+            <section class="products">
+                <div class="card">
+                    <img src="./assets/panaderia-bienvenida.png" alt="" width="116px" />
+                    <p>Pieza de panadería de bienvenida al Nivel Gold</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card-gold.png" alt="" width="116px" />
+                    <p>Tarjeta Gold Digital</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/100-estrellas.png" alt="" width="116px" />
+                    <p>Bebida o pieza de panadería por cada 100 Estrellas acumuladas</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/15-estrellas-aniversario.png" alt="" width="116px" />
+                    <p>15 Estrellas cada aniversario</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/refill-cafe.png" alt="" width="116px" />
+                    <p>Rellena tu vaso de café del día</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/ofertas-personalizadas.png" alt="" width="116px" />
+                    <p>Ofertas exclusivas y personalizadas para ti</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/cumpleaños.png" alt="" width="116px" />
+                    <p>Ven por tu bebida de cumpleaños</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/nuevos-lanzamientos.png" alt="" width="116px" />
+                    <p>Disfruta antes que nadie de lanzamientos exclusivos</p>
+                </div>
+            </section>
+            <div class="bnts">
+                <section class="benefits">
+                    <p class="p-g">Tus cafés se convierten en estrellas y <br />
+                        recompensas increíbles</p>
+                    <div>
+                        <img src="./assets/valor-estrella-sbx.png" alt="" width="400px" />
+                        <p> Obten una estrella por cada $10 <br />
+                            pagando con starbucks card.</p>
+                        <br>
+                        <img src="./assets/valor-estrella-efectivo.png" alt="" width="400px">
+                        <p> U obten una estrella por cada $20 <br />
+                            pagando con efectivo o tarjeta bancaria.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Práctica propiedades hijo -->
+
+    <!-- <div class="container">
+      <div class="box uno">1</div>
+      <div class="box">2</div>
+      <div class="box tres">3</div>
+      <div class="box">4</div>
+    </div> -->
 </body>
 
 </html>

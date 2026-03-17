@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 background-color: #e36c18;
-color: rgb(14, 1, 1);
 }
 .titulo{
     font-family: "Pacifico",cursive;
@@ -36,4 +42,7 @@ color: rgb(14, 1, 1);
 .clase5{
     text-align: center;
     font-size: 2rem;
+}
+body a{
+    color: white;
 }
